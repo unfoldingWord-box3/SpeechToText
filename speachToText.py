@@ -1,9 +1,5 @@
 from faster_whisper import WhisperModel
 
-# using repo `https://pypi.org/project/faster-whisper/`
-# install using `pip install faster-whisper`
-
-
 model_size = "large-v3"
 
 # Run on GPU with FP16
