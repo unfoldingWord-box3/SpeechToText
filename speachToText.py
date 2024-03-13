@@ -1,5 +1,8 @@
 from faster_whisper import WhisperModel
-// install using `pip install faster-whisper`
+
+# using repo `https://pypi.org/project/faster-whisper/`
+# install using `pip install faster-whisper`
+
 
 model_size = "large-v3"
 
