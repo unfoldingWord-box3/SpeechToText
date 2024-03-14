@@ -1,10 +1,12 @@
 # speechToTextFaster
 
-using repo `https://pypi.org/project/faster-whisper/`
+using repo [https://pypi.org/project/faster-whisper/](https://pypi.org/project/faster-whisper/)
 
 ## Setup
 
 install using `pip install -r requirements.txt`
+
+cached LM files are in `~/.cache/huggingface/` on a Mac/Linux machine
 
 ## Run
 
@@ -12,7 +14,9 @@ install using `pip install -r requirements.txt`
 
 # speechToTextTimestamped
 
-using repo `https://github.com/linto-ai/whisper-timestamped`
+using repo [https://github.com/linto-ai/whisper-timestamped](https://github.com/linto-ai/whisper-timestamped)
+
+cached LM files are in `~/.cache/whisper/` on a Mac/Linux machine
 
 ## Setup
 
