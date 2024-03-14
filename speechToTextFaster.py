@@ -17,5 +17,9 @@ segments, info = model.transcribe(sourceAudioFile, beam_size=5)
 
 print("Detected language '%s' with probability %f" % (info.language, info.language_probability))
 
+print(segments)
+
+exit(1)
+
 for segment in segments:
     print("[%.2fs -> %.2fs] %s" % (segment.start, segment.end, segment.text))
