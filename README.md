@@ -1,4 +1,4 @@
-# speechToTextFaster.py
+# speechToTextFaster
 
 using repo `https://pypi.org/project/faster-whisper/`
 
