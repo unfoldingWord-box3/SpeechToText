@@ -14,7 +14,7 @@ cached LM files are in `~/.cache/huggingface/` on a Mac/Linux machine
 
 # speechToTextTimestamped
 
-using repo [https://github.com/linto-ai/whisper-timestamped](https://github.com/linto-ai/whisper-timestamped)
+using repo [https://pypi.org/project/whisper-timestamped/](https://pypi.org/project/whisper-timestamped/)
 
 cached LM files are in `~/.cache/whisper/` on a Mac/Linux machine
 
