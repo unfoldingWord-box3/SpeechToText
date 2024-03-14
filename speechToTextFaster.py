@@ -12,7 +12,7 @@ model_size = "large-v3"
 
 model = WhisperModel(model_size, device="cpu", compute_type="int8")
 
-sourceAudioFile = "./speech/obs/en/en_obs_02-05_128kbps.mp3"
+sourceAudioFile = "./speech/obs/en/en_obs_v6_01_128kbps.mp3"
 segments, info = model.transcribe(sourceAudioFile, beam_size=5)
 
 print("Detected language '%s' with probability %f" % (info.language, info.language_probability))
