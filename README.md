@@ -24,7 +24,7 @@ install using `pip install -r requirements.txt`
 
 # RESULTS
 
-## speachToTextFaster
+## speechToTextFaster
 
 (after first run, so cached the Large LM already)
 
